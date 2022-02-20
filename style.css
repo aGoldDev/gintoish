@@ -1,0 +1,133 @@
+ img {
+  border: 5px solid #E4E000;
+  border-radius: 100px;
+ }
+
+ body2 {
+  text-align: left;
+  font-size: 10pt;
+ }
+
+ a {
+  color: white;
+  border-radius: 0px;
+ }
+
+ .btn .lnk {
+  text-decoration: none;
+  border: 5px solid #e4e000;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+  background-color: black;
+  color: white;
+  font-size: 25pt;
+  text-align: center;
+ }
+
+ .btn .lnk:hover {
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+  background-color: #e4e000;
+  color: white;
+  font-size: 25pt;
+  text-align: center;
+ }
+
+
+ p {
+  font-size: 35px;
+ }
+
+ body{
+    width: 100%;
+    height: 100%;
+    font-family: "helvetica neue", sans-serif;
+    text-align: center;
+    color: #e4e000;
+}
+ html {
+  background-color: #2d2c30;
+  background-image: url("bg.png");
+  background-repeat: no-repeat;
+  font-family: sans-serif;
+  margin: 0px;
+ }
+ .nav {
+    padding-right: 30px;
+    overflow: hidden;
+    background-color: var(--dark);
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    border-top: 0;
+    box-shadow: 0 3px 15px #000;
+}
+
+.nav a {
+    float: right;
+    display: block;
+    color: #e4e000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; 
+    font-size: 17px;
+    font-weight: 400;
+    position: relative;
+}
+
+.nav a:hover {
+    text-shadow: 0 0 10px #e4e000;
+}
+
+.nav .icon {
+    display: none;
+}
+
+.nav .logo {
+    font-weight: bolder;
+    float: left;
+    font-family: "Homemade Apple", cursive;
+    padding-right: 100px;
+    padding-left: 30px;
+}
+
+@media screen and (max-width: 600px) {
+    .nav a:not(:first-child) {
+        display: none;
+    }
+    .nav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .nav.responsive {
+        position: fixed;
+        width: 100%;
+        left: 0;
+        top: 0;
+        z-index: 100;
+        border-top: 0;
+    }
+    .nav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+        padding-right: 46px;
+    }
+    .nav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
