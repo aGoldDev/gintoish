@@ -53,7 +53,7 @@
     color: #e4e000;
 }
  html {
-  background-color: #2d2c30;
+  background-color: #101215;
   background-image: url("bg.png");
   background-repeat: no-repeat;
   font-family: sans-serif;
@@ -95,14 +95,14 @@
 .nav .logo {
     font-weight: bolder;
     float: left;
-    font-family: "Homemade Apple", cursive;
+    font-family: "Homemade Apple";
     padding-right: 100px;
     padding-left: 30px;
 }
 
 @media screen and (max-width: 600px) {
     .nav a:not(:first-child) {
-        display: none;
+        display: none; 
     }
     .nav a.icon {
         float: right;
@@ -130,4 +130,8 @@
         display: block;
         text-align: left;
     }
+}
+footer {
+ padding-bottom: 5pt;
+ text-align: center;
 }
