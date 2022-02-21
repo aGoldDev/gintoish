@@ -1,6 +1,7 @@
  img {
   border: 5px solid #E4E000;
   border-radius: 100px;
+  box-shadow: 10px 5px black;
  }
 
  body2 {
@@ -14,6 +15,7 @@
  }
 
  .btn .lnk {
+  font-family: "Homemade Apple", cursive;
   text-decoration: none;
   border: 5px solid #e4e000;
   font-weight: bold;
@@ -63,8 +65,8 @@
  .nav {
     padding-right: 30px;
     overflow: hidden;
-    background-color: var(--dark);
-    position: fixed;
+    background-color: none;
+    position: fixed; 
     width: 100%;
     left: 0;
     top: 0;
@@ -74,6 +76,7 @@
 }
 
 .nav a {
+    font-family: "Homemade Apple", cursive;
     float: right;
     display: block;
     color: #e4e000;
@@ -96,7 +99,7 @@
 .nav .logo {
     font-weight: bolder;
     float: left;
-    font-family: "Homemade Apple";
+    font-family: "Homemade Apple", cursive;
     padding-right: 100px;
     padding-left: 30px;
 }
@@ -132,7 +135,15 @@
         text-align: left;
     }
 }
-footer {
+footer, a{
+ font-family: "Homemade Apple", cursive;
+ text-decoration: none;
  padding-bottom: 5pt;
  text-align: center;
+}
+.auto-input {
+ font-family: "Homemade Apple", cursive;
+ font-weight: bolder;
+ color: yellow;
+ text-shadow: 4px 5px black;
 }
