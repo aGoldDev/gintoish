@@ -132,6 +132,7 @@
  .nav .logo {
   font-weight: bolder;
   float: left;
+  text-shadow: 3px 3px black;
   font-family: "Poppins", sans-serif;
   padding-right: 100px;
   padding-left: 30px;
