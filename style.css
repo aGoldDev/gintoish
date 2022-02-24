@@ -2,6 +2,7 @@
 
 :root {
  --yellow: #FEFF99;
+ --yelshadow: #7f7f4c;
  --gray: #37323E;
  --darkyellow: #e4e000
 }
@@ -9,7 +10,7 @@
 img {
  border: 5px solid var(--darkyellow);
  border-radius: 100px;
- box-shadow: 10px 5px black;
+ box-shadow: 10px 5px var(--yelshadow)
 }
 
 body2 {
@@ -18,22 +19,22 @@ body2 {
 }
 
 a {
- color: white;
+ color: var(--yellow);
  border-radius: 0px;
 }
 
 .btn .lnk {
  font-family: "Poppins", sans-serif;
  text-decoration: none;
- border: 5px solid white;
+ border: 5px solid var(--yellow);
  font-weight: bold;
- box-shadow: 10px 5px black;
+ box-shadow: 10px 5px var(--yelshadow);
  border-radius: 10px;
  padding: 10px;
  margin: 10px;
  display: inline-block;
  background-color: black;
- color: white;
+ color: var(--yellow);
  font-size: 25pt;
  text-align: center;
 }
@@ -45,7 +46,7 @@ a {
  padding: 10px;
  margin: 10px;
  display: inline-block;
- background-color: white;
+ background-color: var(--yellow);
  color: black;
  font-size: 25pt;
  text-align: center;
@@ -62,11 +63,11 @@ body {
  height: 100%;
  font-family: "helvetica neue", sans-serif;
  text-align: center;
- color: white;
+ color: var(--yellow);
 }
 
 html {
- color: white;
+ color: var(--yellow);
  position: relative;
  background-color: #101215;
  background-image: none;
@@ -120,7 +121,7 @@ html {
  font-family: "Poppins", sans-serif;
  float: right;
  display: block;
- color: white;
+ color: var(--yellow);
  text-align: center;
  padding: 14px 16px;
  text-decoration: none;
@@ -130,7 +131,7 @@ html {
 }
 
 .nav a:hover {
- text-shadow: 0 0 10px white;
+ text-shadow: 0 0 10px var(--yellow);
 }
 
 .nav .icon {
@@ -191,9 +192,9 @@ a {
 
 .auto-input {
  font-family: "Poppins", sans-serif;
- font-weight: none;
+ text-decoration: underline;
+ font-weight: bolder;
  color: var(--yellow);
- text-shadow: 4px 5px black;
 }
 
 .prtcls {
