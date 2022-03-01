@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 :root {
- --yellow: #FEFF99;
- --yelshadow: #7f7f4c;
+ --yellow: #e4e000;
+ --yelshadow: #666600;
  --gray: #37323E;
  --darkyellow: #e4e000
 }
@@ -50,7 +50,7 @@ a {
  color: black;
  font-size: 25pt;
  text-align: center;
-  transition: 0.5s ease-in;
+ transition: 0.5s ease-out;
 }
 
 
@@ -73,6 +73,7 @@ html {
  background-image: none;
  background-repeat: no-repeat;
  font-family: sans-serif;
+ margin: 0px;
  margin: 0px;
 }
 
@@ -124,7 +125,6 @@ html {
  color: var(--yellow);
  text-align: center;
  padding: 14px 16px;
- text-decoration: none;
  font-size: 17px;
  font-weight: 400;
  position: relative;
@@ -132,6 +132,8 @@ html {
 
 .nav a:hover {
  text-shadow: 0 0 10px var(--yellow);
+ text-decoration: underline;
+ transition: 0.5s ease-out;
 }
 
 .nav .icon {
