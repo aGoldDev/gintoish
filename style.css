@@ -74,7 +74,6 @@ html {
  background-repeat: no-repeat;
  font-family: sans-serif;
  margin: 0px;
- margin: 0px;
 }
 
 /*html:after {
@@ -107,7 +106,8 @@ html {
 
 .nav {
  padding-right: 30px;
- overflow: hidden;
+ overflow-x: hidden;
+ overflow-y: hidden;
  background-color: none;
  position: fixed;
  width: 100%;
