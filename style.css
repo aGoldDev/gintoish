@@ -23,6 +23,10 @@ a {
  border-radius: 0px;
 }
 
+.btn {
+ margin-top: 100px;
+}
+
 .btn .lnk {
  font-family: "Poppins", sans-serif;
  text-decoration: none;
@@ -190,6 +194,7 @@ a {
  text-decoration: none;
  text-align: center;
  font-size: 9pt;
+ color: var(--yelshadow);
 }
 
 .auto-input {
