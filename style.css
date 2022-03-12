@@ -63,6 +63,7 @@ p {
 }
 
 body {
+ padding: 0px;
  width: 100%;
  height: 100%;
  font-family: "helvetica neue", sans-serif;
@@ -80,7 +81,9 @@ html {
  margin: 0px;
 }
 
-/*html:after {
+/*snow effect here
+
+html:after {
  content: '';
  display: block;
  position: absolute;
@@ -147,7 +150,6 @@ html {
 .nav .logo {
  font-weight: bolder;
  float: left;
- text-shadow: 3px 3px black;
  font-family: "Poppins", sans-serif;
  padding-right: 100px;
  padding-left: 30px;
@@ -186,10 +188,10 @@ html {
   display: block;
   text-align: left;
  }
-}
+} 
 
-footer,
-a {
+footer center {
+ margin-top: 50px;
  font-family: "Poppins", sans-serif;
  text-decoration: none;
  text-align: center;
@@ -204,6 +206,6 @@ a {
  color: var(--yellow);
 }
 
-.prtcls {
+.spc {
  margin-top: 250px;
 }
